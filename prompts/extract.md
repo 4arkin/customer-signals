@@ -14,7 +14,7 @@ Mine the customer's side. What our side says is noise, unless the customer react
 
 When the labels are generic ("Speaker 1", "Speaker 2"), decide who is on our side from what the call shows: who hosts, who introduces themselves by a name in `our_names`, who presents the product. Use that only to sort the sides. Quotes keep the label as written.
 
-**Group calls** (a workshop, a panel, a community session) hold several customers in one call. Write one note. In Customer context, describe each speaker you mine in one line. The person whose pain it is goes in brackets in Pains and Requests: `(Speaker 4)`. When a host is also a peer with the same pain, leave it out: signals are about customers.
+**Group calls** (a workshop, a panel, a community session) hold several customers in one call. Write one note. In Customer context, describe each speaker you mine in one line. Name the speaker in brackets after each point: `(Speaker 4)`. When a host is also a peer with the same pain, leave it out: signals are about customers.
 
 **Relayed speech** ("my clients keep telling me…") is the speaker's own words and can be quoted. Say that it is relayed in the topic after the dash.
 

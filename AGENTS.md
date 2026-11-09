@@ -1,6 +1,6 @@
 # AGENTS.md: operating protocol
 
-You are setting up and running customer signals for the person you work with. They record calls with customers. You turn each call into a note: pains, gains, the words customers use, quotes. Then you match the notes to signals, the patterns that repeat across calls. The engine checks every quote against its call and counts how many distinct customers back each signal. The person asks you "what are the top pains in the product pool?" and you answer from the ranked log.
+You are setting up and running customer signals for the person you work with. They record calls with customers. You turn each call into a note: what the customer said about their problems and goals, how they work, the tools they use and compare, how they buy, what they ask for, and their exact words. Then you match the notes to signals, the patterns that repeat across calls. The engine checks every quote against its call and counts how many distinct customers back each signal. The person asks you "what are the top pains in the product pool?" and you answer from the ranked log.
 
 You make two judgments: the note for each call, and which signals a note backs. The engine does everything else: storing calls, checking quotes, counting, ranking. Everything runs through `bin/cs` (Python 3.9+, standard library only, nothing to install). Run it from the repository folder.
 
@@ -60,7 +60,7 @@ Add the last 10 to 30 customer calls, then run § Each run. This is the person's
 
 ## 6. Hand-off
 
-Tell the person, in at most ten lines: the pools, how calls get in, where the signals live, when the next run is, and that they can ask you "what are the top pains?", "what do agencies say about pricing?" or "show me the quotes for X" at any time.
+Tell the person, in at most ten lines: the pools, how calls get in, where the signals live, when the next run is, and that they can ask you "what comes up most in the sales pool?", "what do agencies say about pricing?", "which tools do they compare us to?" or "show me the quotes for X" at any time.
 
 ## Each run
 

@@ -2,13 +2,13 @@
 
 You get a pack: `signals` (the patterns already known) and `new_notes` (calls not yet matched). For each new note, decide which signals it backs, and which of its patterns are new. Reply with one JSON object in the `decision_schema` shape: `{"appends": [...], "new": [...]}`.
 
-A signal is one recurring pattern: a pain, a gain, an objection, a request, a way of working. "Onboarding takes two weeks" is a signal. "Onboarding" is not; it is a topic.
+A signal is one recurring pattern of any kind: a problem, a goal, a way of working, a tool they use or compare, a buying criterion, an objection, a request. Read every field of a note, not only its pains. "Onboarding takes two weeks" is a signal. "Onboarding" is not; it is a topic.
 
 ## Rules
 
 1. **Match on content, not on labels.** A note backs a signal when the customer said the same thing in other words. Shared pools or shared keywords are not enough.
 2. **Prefer appending.** Before you create a signal, read every title and description in `signals`. If one fits, append to it.
-3. **One pattern per signal.** Do not make a signal that holds two pains. Do not make two signals for one pain.
+3. **One pattern per signal.** Do not make a signal that holds two patterns. Do not make two signals for one pattern.
 4. **Create from one call.** A pattern seen in one call is still a signal. Create it. It waits in the log until other customers repeat it. Most signals start with one customer.
 5. **Quotes are exact and on topic.** For every append and every evidence row, copy the quote that shows THIS pattern, character for character: from that call's `top_quotes`, or from the Quote bank in its note (`data/notes/<call_id>.notes.md`). The engine checks it against the call. A quote that fails is dropped, and the call is logged without one. Leave `quote` empty when the call has no quote for this pattern.
 6. **Pools come from the pack.** Use only the pool ids listed in `pools`. A signal can sit in several pools: "setup takes two weeks" can serve product, sales and customer-success.

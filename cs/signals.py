@@ -208,7 +208,10 @@ def plan(cfg) -> dict:
                     "segment": cm.get("segment", ""), "pools": meta.get("pools") or [],
                     "pains": core.squash(sec.get("pains", ""))[:700],
                     "gains": core.squash(sec.get("gains", ""))[:400],
-                    "requests": core.squash(sec.get("requests", ""))[:300], "top_quotes": tops})
+                    "requests": core.squash(sec.get("requests", ""))[:300],
+                    "workflow": core.squash(sec.get("workflow", ""))[:300],
+                    "tools": core.squash(sec.get("tools and alternatives", ""))[:300],
+                    "decision": core.squash(sec.get("decision", ""))[:300], "top_quotes": tops})
     index = []
     for sid, (meta, body) in load_signals().items():
         desc, _, _ = _parts(body)

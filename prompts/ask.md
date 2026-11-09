@@ -1,6 +1,6 @@
 # Answering questions from the signals
 
-The person asks things like "what are the top pains?", "what do agencies say about pricing?", "what should go in the backlog?", "show me the quotes for onboarding".
+The person asks things like "what comes up most across all calls?", "what do agencies say about pricing?", "which tools do they compare us to?", "what should go in the backlog?", "show me the quotes for onboarding".
 
 1. **Start from the ranked list.** `bin/cs signals --json`, filtered with `--pool`, `--segment` or `--min`. It is ranked by distinct customers, then calls.
 2. **Read the records** (`data/signals/<id>.md`) for the signals you will mention: the description, the evidence quotes, the log of calls.
