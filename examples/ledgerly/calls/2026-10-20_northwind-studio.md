@@ -8,20 +8,20 @@ participants: []
 speakers: ["Dana Holt", "Mira Tan"]
 labelled: true
 source: 2026-10-20_northwind-studio.md
-sha: 540a3c7146d056aa
+sha: 564ad26888fa32d6
 ---
-Mira Tan: Last time you told us about the reminders. Did the new templates help?
+Mira Tan: Last time you told us about payroll and next month's cash. Is that still the main thing?
 
-Dana Holt: A bit. I can now write one template for regulars and one for slow payers. Fridays went from three hours to one.
+Dana Holt: Yes. I still can not see next month. Every Monday I export everything to a spreadsheet to guess what lands before the twenty-fifth.
 
-Mira Tan: Good to hear. What is left?
+Mira Tan: What do you look at in that sheet?
 
-Dana Holt: The Swiss franc invoices. I still do them in a spreadsheet. The VAT line is still wrong when the currency is not euros.
+Dana Holt: Open invoices and the milestones that should close. Then I call the slow clients.
 
-Mira Tan: Is that a blocker?
+Mira Tan: Anything else since we spoke?
 
-Dana Holt: For us, yes. Our biggest client pays in francs. If I can not send that invoice from Ledgerly, I keep the spreadsheet, and then why am I paying for both?
+Dana Holt: We redid our brand, and the invoice did not follow. The invoice is the last thing a client sees from us after six months of work. It has to look like us.
 
-Mira Tan: Anything else?
+Mira Tan: What is missing for that?
 
-Dana Holt: We hired two juniors who only need to see the invoice status. I do not want to pay full seats for them.
+Dana Holt: Our own font and a proper layout. Today it looks like every other invoice.

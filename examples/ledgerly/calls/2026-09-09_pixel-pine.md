@@ -8,20 +8,20 @@ participants: ["ravi@pixelpine.example", "mira@ledgerly.example"]
 speakers: ["Mira Tan", "Ravi Shah"]
 labelled: true
 source: 2026-09-09_pixel-and-pine.srt
-sha: 01b4b478afc8056b
+sha: 4b3871a63001235a
 ---
-Mira Tan: What made you look at Ledgerly in the first place?
+Mira Tan: What made you pick Ledgerly in the end?
 
-Ravi Shah: Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.
+Ravi Shah: Our accountant asked one question before we signed. Can she get in without a paid seat and pull the numbers into Xero? You said yes, so we signed.
 
-Mira Tan: And how did the move go?
+Mira Tan: Was anything close to stopping you?
 
-Ravi Shah: The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.
+Ravi Shah: The history. Seven years of invoices sit in the old tool. We still pay for it every month only to look things up.
 
-Mira Tan: What did you do with the rejected ones?
+Mira Tan: How do you bill your clients?
 
-Ravi Shah: Typed them in by hand. It took our office manager three days.
+Ravi Shah: Per milestone. A website has four phases, and the client gets an invoice when they approve each phase.
 
-Mira Tan: Is anything still slowing you down?
+Mira Tan: Does that work in Ledgerly?
 
-Ravi Shah: Late payers. I have a sticky note on my screen with the names of clients to chase. That should not be my system.
+Ravi Shah: We make each invoice by hand. Nothing in the app knows that phase three closed.

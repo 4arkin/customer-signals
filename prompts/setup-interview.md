@@ -18,7 +18,7 @@ A pool is what a signal is about and whom it serves. Propose 3 to 6, from what t
 | Pool | About | Serves |
 |---|---|---|
 | `product` | bugs, missing features, friction, requests | the backlog |
-| `marketing` | pains, gains, the words customers use | messaging, positioning, offers |
+| `marketing` | what customers want, how they decide, the words they use | messaging, positioning, offers |
 | `sales` | objections, buying process, budget, competitors | the sales script |
 | `customer-success` | onboarding, churn risk, workarounds | retention |
 | `strategy` | who to serve, what to build next, pricing model | the founder's decisions |

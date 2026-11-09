@@ -5,11 +5,34 @@
  "upsert_key": "Signal ID",
  "rows": [
   {
-   "Signal ID": "chasing-late-payments-by-hand",
-   "Title": "Chasing late payments is manual and awkward",
+   "Signal ID": "invoices-on-phase-approval",
+   "Title": "Invoices when a project phase is approved, not by calendar month",
    "Rank": 1,
-   "Customers": 6,
-   "Calls": 6,
+   "Customers": 4,
+   "Calls": 4,
+   "Pools": [
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-02",
+   "Last seen": "2026-10-08",
+   "Description": "Studios bill per project milestone: an invoice goes out when the client signs off a phase. A month-based invoicing model does not fit how they work.",
+   "Quotes": [
+    "\"Three invoices per project, never one at month end.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"the client gets an invoice when they approve each phase.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"By phase. The invoice goes out when the client signs off a phase, not on a date.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`"
+   ]
+  },
+  {
+   "Signal ID": "wants-next-month-cash-view",
+   "Title": "Wants to see next month's incoming cash ahead of time",
+   "Rank": 2,
+   "Customers": 3,
+   "Calls": 4,
    "Pools": [
     "product",
     "marketing"
@@ -20,18 +43,18 @@
    ],
    "Status": "open",
    "First seen": "2026-09-02",
-   "Last seen": "2026-10-08",
-   "Description": "Getting paid takes more effort than sending the invoice. Customers chase by email, phone, sticky notes or red cells, and the chasing feels awkward with clients they want to keep.",
+   "Last seen": "2026-10-20",
+   "Description": "They want to know early what money will arrive in the coming weeks, and from which clients, so they can plan payroll and irregular income. Today they guess with spreadsheets or milestone lists.",
    "Quotes": [
-    "\"Sending them is fine now. Getting paid is the problem. I spend every Friday morning chasing late invoices by email.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
-    "\"I have a sticky note on my screen with the names of clients to chase. That should not be my system.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
-    "\"When a publisher is late I wait two more weeks before I dare to write, because I do not want to look desperate.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`"
+    "\"Knowing next month. Payroll is on the twenty-fifth. In the first week of the month I want to see what cash comes in before then, and from whom.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"A view of next month. I want to see what comes in, by client, before the bank tells me.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`",
+    "\"I want one number: what lands in the next thirty days.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`"
    ]
   },
   {
-   "Signal ID": "paying-full-seats-for-viewers",
-   "Title": "Paying full seats for people who only view",
-   "Rank": 2,
+   "Signal ID": "invoice-history-blocks-switching",
+   "Title": "Years of invoice history hold them in the old tool",
+   "Rank": 3,
    "Customers": 3,
    "Calls": 3,
    "Pools": [
@@ -39,23 +62,48 @@
     "product"
    ],
    "Segments": [
+    "freelancers",
     "studios"
    ],
    "Status": "open",
    "First seen": "2026-09-09",
-   "Last seen": "2026-10-20",
-   "Description": "Teams grow, but only a few people send invoices. Paying a full seat for someone who only looks at numbers feels wrong and pushes customers to look elsewhere.",
+   "Last seen": "2026-10-27",
+   "Description": "Past invoices sit in an old tool or sheet, and losing or splitting that history nearly stops the switch. Importing history removes the barrier.",
    "Quotes": [
-    "\"Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
-    "\"The rest only need to see the numbers. Paying a full seat for someone who reads a dashboard feels wrong.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`",
-    "\"We hired two juniors who only need to see the invoice status. I do not want to pay full seats for them.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
+    "\"Seven years of invoices sit in the old tool. We still pay for it every month only to look things up.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"If I can not bring them along, my tax history sits in two places.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`",
+    "\"Five years of invoices were in it, and I did not want to lose them.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
    ]
   },
   {
-   "Signal ID": "reminders-must-sound-like-the-sender",
-   "Title": "Payment reminders must sound like the sender, not a robot",
-   "Rank": 3,
-   "Customers": 2,
+   "Signal ID": "must-sync-to-accountants-ledger",
+   "Title": "Must sync or export to the accountant's accounting system",
+   "Rank": 4,
+   "Customers": 3,
+   "Calls": 3,
+   "Pools": [
+    "product",
+    "sales"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-09",
+   "Last seen": "2026-10-27",
+   "Description": "Sync with the accountant's tool (Xero, Fortnox) is a hard buying criterion. Without it the accountant retypes invoices, and the answer is no.",
+   "Quotes": [
+    "\"Can she get in without a paid seat and pull the numbers into Xero?\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"Anything we pick has to sync with Xero, or it is a no.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`",
+    "\"asked me to pick a tool that exports to Fortnox, so she stops typing my invoices in.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
+   ]
+  },
+  {
+   "Signal ID": "chases-late-payers-by-hand",
+   "Title": "Chases late payers by hand",
+   "Rank": 5,
+   "Customers": 3,
    "Calls": 3,
    "Pools": [
     "product",
@@ -66,19 +114,40 @@
     "studios"
    ],
    "Status": "open",
-   "First seen": "2026-09-02",
+   "First seen": "2026-09-15",
    "Last seen": "2026-10-20",
-   "Description": "One cold template for every client damages relationships, so customers switch reminders off. Reminders written per client, in their own voice, get used.",
+   "Description": "Late payment is chased manually, by phone or a reluctant email, because reminders are ignored or uncomfortable to send.",
    "Quotes": [
-    "\"I turned it off. It sends the same cold text to everyone. A client of five years got the same message as a one-off job.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
-    "\"If it sounds like a collection agency, the art director will think I am difficult.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
-    "\"I can now write one template for regulars and one for slow payers.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
+    "\"When a publisher is late, I wait two more weeks before I dare to write.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"Open invoices and the milestones that should close. Then I call the slow clients.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
    ]
   },
   {
-   "Signal ID": "no-vat-guidance-for-cross-border-invoices",
-   "Title": "No guidance on what VAT to put on cross-border invoices",
-   "Rank": 4,
+   "Signal ID": "retypes-tracked-hours-into-invoices",
+   "Title": "Retypes tracked hours into invoices",
+   "Rank": 6,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "product"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-22",
+   "Last seen": "2026-10-27",
+   "Description": "Hours tracked in a time tool (Harvest, Toggl) are copied into invoices by hand, which costs time every cycle.",
+   "Quotes": [
+    "\"Every month somebody retypes them into the invoices. It takes a full afternoon.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`",
+    "\"I track hours in Toggl and copy them into each invoice by hand.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
+   ]
+  },
+  {
+   "Signal ID": "unsure-of-vat-text-on-foreign-invoices",
+   "Title": "Unsure which VAT text to put on invoices to foreign clients",
+   "Rank": 7,
    "Customers": 2,
    "Calls": 2,
    "Pools": [
@@ -91,20 +160,66 @@
    "Status": "open",
    "First seen": "2026-09-15",
    "Last seen": "2026-10-27",
-   "Description": "Freelancers with clients in other countries do not know whether to add VAT or what sentence the invoice needs, and look it up every time.",
+   "Description": "Cross-border invoices need the right VAT or reverse-charge wording, and the app gives no help. They want it added from the client's country.",
    "Quotes": [
-    "\"Half my clients are in the UK. I never know if I should add VAT or not, and the app does not tell me.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
-    "\"It has a field for the VAT number, but it does not tell me what to write.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
+    "\"I never know which VAT text to put on the invoice, and the app does not tell me.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"I pick the client's country, and the app puts the right VAT text on the invoice.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
    ]
   },
   {
-   "Signal ID": "client-import-rejects-spreadsheets",
-   "Title": "Client import fails on real spreadsheets",
-   "Rank": 5,
+   "Signal ID": "invoice-must-look-like-their-brand",
+   "Title": "The invoice must look professional and on-brand",
+   "Rank": 8,
    "Customers": 2,
    "Calls": 2,
    "Pools": [
-    "product"
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-15",
+   "Last seen": "2026-10-20",
+   "Description": "The invoice is the last thing a client sees, so it reflects on their work. A generic invoice feels cheap; they want their own font and layout.",
+   "Quotes": [
+    "\"If it looks cheap, my cover looks cheap.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"The invoice is the last thing a client sees from us after six months of work. It has to look like us.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
+   ]
+  },
+  {
+   "Signal ID": "late-sign-off-shifts-cash",
+   "Title": "A late client sign-off throws off the cash plan",
+   "Rank": 9,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-02",
+   "Last seen": "2026-09-22",
+   "Description": "Because invoices wait for phase sign-off, one late approval moves incoming cash and forces manual juggling. It explains why the forecast is a guess.",
+   "Quotes": [
+    "\"I look at which milestones should close and hope the clients sign them off on time.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"We have eleven salaries. One late phase sign-off and I move money around for a week.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`"
+   ]
+  },
+  {
+   "Signal ID": "accountant-logs-in-without-paid-seat",
+   "Title": "Accountant gets into the data without a paid seat",
+   "Rank": 10,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "product",
+    "sales"
    ],
    "Segments": [
     "freelancers",
@@ -112,33 +227,32 @@
    ],
    "Status": "open",
    "First seen": "2026-09-09",
-   "Last seen": "2026-10-01",
-   "Description": "The importer expects one address format and one column order. Customers give up, type clients in by hand, or keep two systems.",
+   "Last seen": "2026-09-15",
+   "Description": "They want the accountant to log in and take the invoices herself instead of a manual hand-off. It can decide the purchase and remove price objections.",
    "Quotes": [
-    "\"The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
-    "\"Let me match the columns myself. Show me my sheet and ask which column is the email.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`"
+    "\"Can she get in without a paid seat and pull the numbers into Xero?\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"If she could log in herself, I would not think twice about the price.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`"
    ]
   },
   {
-   "Signal ID": "would-pay-for-automatic-chasing",
-   "Title": "Would pay more, or drop the old system, for chasing done for them",
-   "Rank": 6,
+   "Signal ID": "builds-each-milestone-invoice-by-hand",
+   "Title": "Builds each milestone invoice by hand",
+   "Rank": 11,
    "Customers": 2,
    "Calls": 2,
    "Pools": [
-    "sales",
-    "marketing"
+    "product"
    ],
    "Segments": [
-    "freelancers"
+    "studios"
    ],
    "Status": "open",
-   "First seen": "2026-09-15",
-   "Last seen": "2026-10-01",
-   "Description": "Automatic chasing is the feature customers attach money or a full switch to.",
+   "First seen": "2026-09-02",
+   "Last seen": "2026-09-09",
+   "Description": "With no milestone billing in the app, each phase invoice is copied and edited or made manually. A prompt or auto-invoice on phase close removes this work.",
    "Quotes": [
-    "\"I would pay more if it chased people for me, honestly.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
-    "\"If the app knew who was late and nudged them, I would close the sheet for good.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`"
+    "\"I copy the last invoice, change the milestone line and send it by hand.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"Nothing in the app knows that phase three closed.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`"
    ]
   }
  ]

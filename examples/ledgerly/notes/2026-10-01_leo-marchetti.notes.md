@@ -1,62 +1,85 @@
 ---
 call_id: 2026-10-01_leo-marchetti
 customer: "Leo Marchetti"
-pools: [product, marketing]
+pools: [product, marketing, sales]
 extracted_at: 2026-11-09
 extracted_by: claude-sonnet
 quality: partial
 ---
+
 # 2026-10-01_leo-marchetti
 
 ## Customer context
-Leo Marchetti is a freelancer who bills clients himself. He signed up three weeks before the call. He kept all his clients in a Google Sheet and bills about ten of them most often. He also tracks unpaid invoices in the same sheet.
+
+- Freelancer who works alone and signed up for Ledgerly about three weeks before the call.
+- Sends between zero and five invoices a month.
+- Has three years of past invoices in a Google Sheet.
+- Works with an accountant who asks for last year's records.
 
 ## Pains
-**Said:**
-- The client import wanted a different column order than his sheet, so he gave up and added only the ten clients he bills most.
-- The rest of the clients are still in the sheet, so he now has two places to look, which he says is worse than before.
 
-**Shown:**
-- He marks who owes him with a red cell in the sheet and checks it by hand.
+**Said**
+- Income is irregular and he has no plan for it. He calls this the problem.
+- Past invoices cannot be moved into Ledgerly, so his tax history would sit in two places. This almost stopped him from signing up.
+
+**Shown**
+- He still opens the old sheet each time the accountant asks for last year, so the sheet remains his source of truth.
 
 ## Gains
-He wants one place for all clients. He wants the app to know who is late and to nudge them, so he can stop using the sheet.
+
+- One number that shows what money will arrive in the next thirty days.
+- One place for his tax history.
 
 ## Their words
-- "two places to look"
-- "worse than before"
-- "who owes me"
-- "close the sheet for good"
+
+- "one number"
+- "what lands in the next thirty days"
+- "my tax history sits in two places"
 
 ## Workflow
-He keeps every client in a Google Sheet. He marks late payers with a red cell in the same sheet. After signup he moved the ten clients he bills most into the app by hand.
+
+- He sends an invoice when he delivers the files.
+- Volume swings from five invoices in a month to none.
+- Past invoices stay in a Google Sheet, opened on request from the accountant.
+- He has no way to plan cash around the swings.
 
 ## Tools and alternatives
-Google Sheet, still in use for the remaining clients and for payment tracking. He gave up on the app's import after the column order did not match.
+
+- Google Sheet for three years of invoices; still in use.
+- Ledgerly for new invoices.
+- No competitor named.
 
 ## Decision
-_(none observed)_
+
+- He decides alone as a solo freelancer.
+- Criterion: his old invoices must come along, or his tax history is split.
+- The accountant influences by asking for last year's records.
+- No budget or timing stated.
 
 ## Requests
-- On import, expected to map his own columns, got a fixed column order. He asks to see his sheet and be asked which column is the email.
-- Automatic detection of late invoices and a reminder sent to the late client. Reason: he would stop using the sheet.
+
+- Import of old invoices from a Google Sheet, so tax history lives in one place.
+- A view of expected income for the next thirty days.
 
 ## Quote bank
-> I had all my clients in a Google Sheet and the import wanted a different column order.
-— Leo Marchetti, on client import
 
-> So now I have two places to look, which is worse than before.
-— Leo Marchetti, on running the app and the sheet side by side
+> I want one number: what lands in the next thirty days.
+— Leo Marchetti, on planning around irregular income
 
-> If the app knew who was late and nudged them, I would close the sheet for good.
-— Leo Marchetti, on late payments
+> If I can not bring them along, my tax history sits in two places.
+— Leo Marchetti, on importing old invoices
 
-> Let me match the columns myself. Show me my sheet and ask which column is the email.
-— Leo Marchetti, on the fix for import
+> Three years of them are in a Google Sheet.
+— Leo Marchetti, on where his old invoices are
 
-> I track who owes me in the same sheet, with a red cell.
-— Leo Marchetti, on tracking who is late
+> I open it every time the accountant asks for last year.
+— Leo Marchetti, on the old sheet
+
+> Some months that is five invoices, some months none.
+— Leo Marchetti, on invoice volume
 
 ## Open questions
-- How many clients does he have in total beyond the ten he added?
-- Do other freelancers keep clients in a sheet and hit the same import problem?
+
+- Which columns does the Google Sheet hold, and could an import map them?
+- Do other freelancers want a thirty-day income number, or only Leo?
+- Does the accountant need a specific export format?

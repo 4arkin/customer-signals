@@ -9,67 +9,62 @@ quality: partial
 # 2026-09-15_hana-okafor
 
 ## Customer context
-- Freelance designer who works alone, mostly on book covers.
-- Sends about six invoices a month, mainly to publishers.
-- About half of her clients are in the UK.
-- Uses the app on the solo plan.
+Hana Okafor is a solo freelance designer who mostly makes book covers. She sends about six invoices a month. About half of her clients are in the UK. Her accountant does her taxes in FreshBooks. She already uses the Ledgerly app.
 
 ## Pains
 **Said**
-- Asking for money is the hardest part of invoicing for her. She hates it.
-- She does not know whether to add VAT on invoices to UK clients, and the app does not tell her.
+- Asking for payment is the hardest part of her work. When a publisher is late, she waits two more weeks before she writes.
+- She does not know which VAT text to put on invoices for UK clients, and the app gives no help.
 
 **Shown**
-- When a publisher pays late, she waits two more weeks before writing, to avoid looking desperate. This is a workaround for the awkwardness of chasing.
-- She worries that an automated reminder in a harsh tone would make the art director see her as difficult.
+- Every quarter she sends her accountant a zip of PDFs, a manual hand-off.
 
 ## Gains
-- Someone else chases late payers for her, so she does not have to.
-- Reminders that keep a human, polite tone and protect her relationship with the client.
-- Clear guidance on VAT for UK clients.
+- Invoices that look professional, because the invoice is the last thing the art director sees from her.
+- Her accountant able to log in and get the invoices herself.
+- Correct VAT wording on invoices without guessing.
 
 ## Their words
-- Problem: "Asking for the money"
-- Problem: "I do not want to look desperate"
-- Fear about reminders: "sounds like a collection agency"
-- Fear about reminders: "sound like a robot"
-- Outcome: "chased people for me"
+- "If it looks cheap, my cover looks cheap."
+- "Asking for the money."
+- "I wait two more weeks before I dare to write."
+- "which VAT text to put on the invoice"
 
 ## Workflow
-- Works alone and sends about six invoices a month.
-- When a publisher is late, she waits two more weeks before writing to them.
-- She decides case by case whether to add VAT for UK clients, without help from the app.
+- Works alone, on book covers, with about six invoices a month.
+- Sends invoices from the app to art directors and publishers.
+- Each quarter she exports PDFs, zips them and sends them to her accountant, who works in FreshBooks.
+- When a payment is late, she waits about two more weeks before she sends a reminder.
 
 ## Tools and alternatives
-- Uses the app on the solo plan and calls it fine.
-- No alternatives or dropped tools mentioned.
+- Ledgerly for invoices.
+- FreshBooks, used by her accountant for taxes.
+- No alternative to Ledgerly is named.
 
 ## Decision
-- She is the only decision maker, as a solo freelancer.
-- She says she would pay more for a version that chases clients for her. No budget figure was given.
-- Risk to adoption: reminders that sound robotic or like a collection agency.
+- Hana decides for herself.
+- Her accountant is an influencer: accountant login would make price a non-issue for her.
+- No budget figure or timing given.
 
 ## Requests
-- Automatic payment reminders in a natural tone, so she does not have to chase clients herself.
-- VAT guidance in the app: she has UK clients and cannot tell whether to add VAT.
+- Accountant access: the accountant logs in herself instead of receiving a quarterly zip of PDFs.
+- VAT guidance: on invoices to UK clients the app should tell her which VAT text to use. Today it gives no hint.
 
 ## Quote bank
-> I would pay more if it chased people for me, honestly.
-— Hana Okafor, on willingness to pay for automatic chasing
+> If she could log in herself, I would not think twice about the price.
+— Hana Okafor, on accountant access and price
 
-> When a publisher is late I wait two more weeks before I dare to write, because I do not want to look desperate.
+> I never know which VAT text to put on the invoice, and the app does not tell me.
+— Hana Okafor, on VAT wording for UK clients
+
+> When a publisher is late, I wait two more weeks before I dare to write.
 — Hana Okafor, on chasing late payments
 
-> Half my clients are in the UK. I never know if I should add VAT or not, and the app does not tell me.
-— Hana Okafor, on missing VAT guidance
+> If it looks cheap, my cover looks cheap.
+— Hana Okafor, on why invoice appearance matters
 
-> If it sounds like a collection agency, the art director will think I am difficult.
-— Hana Okafor, on the tone of reminders
-
-> I hate it.
-— Hana Okafor, on asking for the money
+> every quarter I send her a zip of PDFs
+— Hana Okafor, on the hand-off to her accountant
 
 ## Open questions
-- How much more would she pay for automatic chasing? No number was given.
-- Do other freelancers with UK clients have the same VAT confusion?
-- What tone of reminder would feel acceptable to her? Test with other freelancers.
+- Test with other freelancers whether accountant login is a general pull or only Hana's case.

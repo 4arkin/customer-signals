@@ -1,31 +1,31 @@
 1
 00:00:01,000 --> 00:00:04,000
-Mira Tan: What made you look at Ledgerly in the first place?
+Mira Tan: What made you pick Ledgerly in the end?
 
 2
-00:00:04,000 --> 00:00:15,000
-Ravi Shah: Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.
+00:00:04,000 --> 00:00:16,000
+Ravi Shah: Our accountant asked one question before we signed. Can she get in without a paid seat and pull the numbers into Xero? You said yes, so we signed.
 
 3
-00:00:15,000 --> 00:00:19,000
-Mira Tan: And how did the move go?
+00:00:16,000 --> 00:00:20,000
+Mira Tan: Was anything close to stopping you?
 
 4
-00:00:19,000 --> 00:00:33,000
-Ravi Shah: The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.
+00:00:20,000 --> 00:00:33,000
+Ravi Shah: The history. Seven years of invoices sit in the old tool. We still pay for it every month only to look things up.
 
 5
 00:00:33,000 --> 00:00:38,000
-Mira Tan: What did you do with the rejected ones?
+Mira Tan: How do you bill your clients?
 
 6
-00:00:38,000 --> 00:00:47,000
-Ravi Shah: Typed them in by hand. It took our office manager three days.
+00:00:38,000 --> 00:00:50,000
+Ravi Shah: Per milestone. A website has four phases, and the client gets an invoice when they approve each phase.
 
 7
-00:00:47,000 --> 00:00:52,000
-Mira Tan: Is anything still slowing you down?
+00:00:50,000 --> 00:00:55,000
+Mira Tan: Does that work in Ledgerly?
 
 8
-00:00:52,000 --> 00:01:08,000
-Ravi Shah: Late payers. I have a sticky note on my screen with the names of clients to chase. That should not be my system.
+00:00:55,000 --> 00:01:06,000
+Ravi Shah: We make each invoice by hand. Nothing in the app knows that phase three closed.

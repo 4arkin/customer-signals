@@ -1,10 +1,10 @@
-[00:00] Mira Tan: Brightline has been with us a year now. What should we fix first?
-[00:06] Jonas Weber: Pricing, if I am honest. We grew from four to eleven people this year and our bill almost tripled.
-[00:15] Mira Tan: How many of the eleven send invoices?
-[00:19] Jonas Weber: Three. The rest only need to see the numbers. Paying a full seat for someone who reads a dashboard feels wrong.
-[00:30] Mira Tan: Understood. Anything in the daily work?
-[00:34] Jonas Weber: We invoice in euros, pounds and dollars. The exchange rate on the invoice and the rate our bank uses never match, so the accountant fixes every foreign invoice by hand.
-[00:49] Mira Tan: How much time is that?
-[00:52] Jonas Weber: Half a day at the end of each month.
-[00:56] Mira Tan: And payments?
-[00:59] Jonas Weber: Late payments are normal in our world. Our project managers chase their own clients, each in their own way, and nobody sees who is overdue across the agency.
+[00:00] Mira Tan: Brightline has been with us a year now. How do you bill?
+[00:05] Jonas Weber: By phase. The invoice goes out when the client signs off a phase, not on a date.
+[00:13] Mira Tan: What decided the switch to Ledgerly?
+[00:17] Jonas Weber: Our accountant lives in Xero. Anything we pick has to sync with Xero, or it is a no.
+[00:25] Mira Tan: And the daily work?
+[00:28] Jonas Weber: Our hours come from Harvest. Every month somebody retypes them into the invoices. It takes a full afternoon.
+[00:39] Mira Tan: What would you add first?
+[00:42] Jonas Weber: A view of next month. I want to see what comes in, by client, before the bank tells me.
+[00:51] Mira Tan: Why does that matter so much?
+[00:54] Jonas Weber: We have eleven salaries. One late phase sign-off and I move money around for a week.

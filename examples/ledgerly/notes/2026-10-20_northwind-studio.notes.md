@@ -1,72 +1,83 @@
 ---
 call_id: 2026-10-20_northwind-studio
 customer: "Northwind Studio"
-pools: [product, sales]
+pools: [product, marketing]
 extracted_at: 2026-11-09
 extracted_by: claude-sonnet
 quality: partial
 ---
+
 # 2026-10-20_northwind-studio
 
 ## Customer context
-- Northwind Studio is a design studio and a current paying Ledgerly customer. This is a follow-up call after an earlier call about reminders.
-- Dana Holt handles invoicing and payment chasing herself.
-- The studio just hired two juniors. They only need to see invoice status.
-- Their biggest client pays in Swiss francs.
+
+Northwind Studio is a design studio with clients on long projects (about six months of work) paid by milestones. Dana Holt handles invoicing and cash follow-up. The studio recently redid its brand. This is a follow-up call: Dana Holt spoke to Mira Tan before about payroll and next month's cash.
 
 ## Pains
+
 **Said**
-- Invoices in Swiss francs cannot be sent from Ledgerly because the VAT line is wrong when the currency is not euros. Dana Holt calls it a blocker.
-- Paying full seats for two juniors who only need to view invoice status.
+- Dana Holt cannot see next month's cash. The pain is unchanged since the last call.
+- The invoice did not follow the new brand. It looks like every other invoice, and it is the last thing a client sees after months of work.
 
 **Shown**
-- Dana Holt keeps a spreadsheet for the franc invoices and runs it next to Ledgerly, which means paying for two tools.
+- Dana Holt exports everything to a spreadsheet every Monday to guess incoming cash. This is a manual workaround for the missing forecast.
+- Dana Holt phones slow-paying clients by hand.
 
 ## Gains
-- Send every invoice, including the biggest client's franc invoices, from Ledgerly alone and drop the spreadsheet.
-- Give junior staff a way to see invoice status without a full paid seat.
+
+- A clear view of what money lands before the twenty-fifth, in time for payroll.
+- An invoice that looks like the studio's brand and ends the client relationship well.
 
 ## Their words
-- "VAT line is still wrong"
-- "pay full seats"
-- "why am I paying for both"
+
+- "can not see next month"
+- "guess what lands before the twenty-fifth"
+- "It has to look like us"
+- "every other invoice"
 
 ## Workflow
-- Payment reminders now use two templates: one for regulars and one for slow payers.
-- The Friday reminder session went from three hours to one hour after the templates.
-- Franc invoices are made by hand in a spreadsheet, outside Ledgerly.
+
+- Every Monday: export all data to a spreadsheet.
+- In the sheet: check open invoices and the milestones that should close.
+- Then phone the slow clients.
+- Goal of the cycle: guess what lands before the twenty-fifth.
 
 ## Tools and alternatives
-- Ledgerly for most invoices and reminders; its new templates helped.
-- A spreadsheet for Swiss franc invoices. Dana Holt will keep it unless Ledgerly handles the currency.
+
+A spreadsheet, fed by a Monday export from the current invoicing tool. No alternatives named on this call.
 
 ## Decision
-- Dana Holt speaks as the budget holder on seats and on whether to keep paying for Ledgerly next to the spreadsheet.
-- Criterion: Ledgerly must replace the spreadsheet, or the double cost is not worth it.
-- Seat pricing for view-only users is a second cost objection.
-- Budget figures and timing were not stated.
+
+_(none observed)_
 
 ## Requests
-- Correct VAT line on invoices in non-euro currencies, Swiss francs first. Reason: the biggest client pays in francs and the invoice cannot be sent from Ledgerly today. Bug report: on a franc invoice, expected a correct VAT line, got a wrong one.
-- A cheaper or free view-only seat for people who only see invoice status. Reason: two new juniors.
+
+- Custom font on the invoice, so it matches the new brand.
+- A proper layout for the invoice, because today it looks generic.
+- Visibility of next month's incoming cash, so the Monday spreadsheet is not needed.
 
 ## Quote bank
-> Our biggest client pays in francs. If I can not send that invoice from Ledgerly, I keep the spreadsheet, and then why am I paying for both?
-— Dana Holt, on Swiss franc invoices and the cost of running a spreadsheet alongside Ledgerly
 
-> We hired two juniors who only need to see the invoice status. I do not want to pay full seats for them.
-— Dana Holt, on seat pricing for view-only users
+> Every Monday I export everything to a spreadsheet to guess what lands before the twenty-fifth.
+— Dana Holt, on the cash forecast workaround
 
-> The VAT line is still wrong when the currency is not euros.
-— Dana Holt, on the VAT bug on non-euro invoices
+> The invoice is the last thing a client sees from us after six months of work. It has to look like us.
+— Dana Holt, on invoice branding
 
-> Fridays went from three hours to one.
-— Dana Holt, on the effect of the new reminder templates
+> Our own font and a proper layout. Today it looks like every other invoice.
+— Dana Holt, on what is missing from the invoice
 
-> I can now write one template for regulars and one for slow payers.
-— Dana Holt, on reminder templates
+> Open invoices and the milestones that should close. Then I call the slow clients.
+— Dana Holt, on what she checks in the sheet
+
+> I still can not see next month.
+— Dana Holt, on cash visibility
+
+> We redid our brand, and the invoice did not follow.
+— Dana Holt, on the trigger for the branding request
 
 ## Open questions
-- Which other currencies besides Swiss francs do they invoice in?
-- Would a view-only seat at a lower price satisfy the junior-seat objection, and what price would they accept?
-- Does Dana Holt alone decide on keeping Ledgerly, or does someone else sign off?
+
+- Which tool does the Monday export come from, and how long does the spreadsheet step take?
+- How many clients are "slow", and how late do they pay?
+- Is the invoice branding need shared by other studios that redid their brand?

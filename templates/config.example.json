@@ -7,7 +7,7 @@
   },
   "pools": [
     {"id": "product", "about": "Bugs, missing features, friction in the product, requests. Serves the backlog."},
-    {"id": "marketing", "about": "Pains, gains and the words customers use. Serves messaging, positioning and offers."},
+    {"id": "marketing", "about": "What customers want, how they decide, and the words they use. Serves messaging, positioning and offers."},
     {"id": "sales", "about": "Objections, buying process, budget, competitors in the deal. Serves the sales script."},
     {"id": "customer-success", "about": "Onboarding friction, churn risk, workarounds. Serves retention."}
   ],

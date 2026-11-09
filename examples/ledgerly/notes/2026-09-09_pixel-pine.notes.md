@@ -10,61 +10,57 @@ quality: partial
 # 2026-09-09_pixel-and-pine
 
 ## Customer context
-- Ravi Shah speaks for Pixel & Pine, a studio of six people. Only two of them send invoices.
-- They hold about four hundred clients in a spreadsheet.
-- They have an office manager who did the manual data entry.
-- They moved to Ledgerly from an older invoicing tool.
+Pixel & Pine is a design studio that builds websites. Ravi Shah speaks for it and handles the billing. The studio has an external accountant who uses Xero. It has seven years of invoices in a previous invoicing tool and has signed with Ledgerly.
 
 ## Pains
 **Said**
-- The old tool charged per seat, so they paid for six seats when two people invoiced.
-- The client import rejected about half of the four hundred rows because of the address format.
-- Late payers: Ravi Shah has to remember which clients to chase and does not like that this is his own job.
+- Seven years of invoice history sit in the old tool, and the studio pays for it every month only to look things up.
+- Ledgerly has no milestone billing, so each invoice is made by hand.
 
 **Shown**
-- The office manager typed the rejected clients in by hand, which took three days.
-- A sticky note on the screen holds the names of clients to chase. This is a workaround for a missing reminder process.
+- The accountant's access (no paid seat, numbers into Xero) was the one question asked before signing, so accountant access was a gate for the deal.
 
 ## Gains
-_(none observed)_
+- The accountant can get into the data without a paid seat.
+- The numbers flow from Ledgerly into Xero.
+- An invoice that follows the approval of each project phase without manual work.
 
 ## Their words
-- "charged per seat"
-- "The import was painful"
-- "That should not be my system"
+- "paid seat"
+- "pull the numbers into Xero"
+- "by hand"
 
 ## Workflow
-- Client list lived in a spreadsheet of four hundred rows.
-- Import into Ledgerly: the importer rejected half; the office manager keyed the rest by hand over three days.
-- Two of six people send invoices.
-- Chasing late payers: Ravi Shah keeps a sticky note with client names and chases them himself.
+The studio bills per milestone. A website has four phases. The client gets an invoice when they approve each phase. Today Ravi Shah makes each of these invoices by hand in Ledgerly. The accountant pulls numbers into Xero.
 
 ## Tools and alternatives
-- Old invoicing tool with per-seat pricing, dropped because six seats were paid for and two were used.
-- A spreadsheet as the client source for the import.
-- A sticky note as the late-payer tracker.
+- Xero: the accountant's accounting tool.
+- The old invoicing tool: still paid for every month, kept only for lookups of seven years of history.
 
 ## Decision
-_(none observed)_
+The accountant's question decided the signing: access without a paid seat, and a way to pull numbers into Xero. Mira Tan said yes, and the studio signed. The old-tool history was the thing that came close to stopping the deal. No budget or timing came up.
 
 ## Requests
-- Importer: on the client import with a spreadsheet of four hundred rows, expected all rows to load, got about half rejected because of the address format.
-- Late payer chasing: a way to track and chase overdue clients inside the tool, so the sticky note is not needed.
+- Milestone billing: on phase approval, expected an invoice to be created or prompted, got nothing, because the app does not know that a phase closed.
+- Import of seven years of history from the old tool, so the studio can stop paying for it.
 
 ## Quote bank
-> Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.
-— Ravi Shah, on per-seat pricing in the old tool
+> Can she get in without a paid seat and pull the numbers into Xero?
+— Ravi Shah, on the accountant question that decided the signing
 
-> The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.
-— Ravi Shah, on the client import
+> Nothing in the app knows that phase three closed.
+— Ravi Shah, on missing milestone billing
 
-> Typed them in by hand. It took our office manager three days.
-— Ravi Shah, on the rejected imports
+> Seven years of invoices sit in the old tool. We still pay for it every month only to look things up.
+— Ravi Shah, on the history that nearly stopped the deal
 
-> I have a sticky note on my screen with the names of clients to chase. That should not be my system.
-— Ravi Shah, on late payers
+> We make each invoice by hand.
+— Ravi Shah, on billing per milestone in Ledgerly today
+
+> the client gets an invoice when they approve each phase.
+— Ravi Shah, on how the studio bills
 
 ## Open questions
-- Does a per-seat price complaint recur with other studios where few people invoice?
-- Is the importer address-format rejection common, or specific to this spreadsheet?
-- What does Ravi Shah expect from a late-payer feature (reminders, status, or automation)?
+- Does the history import need to cover all seven years, or only recent years?
+- Do other studios with an external accountant also gate the purchase on seat-free access and Xero?
+- Do other studios bill per milestone, and what event triggers each invoice for them?

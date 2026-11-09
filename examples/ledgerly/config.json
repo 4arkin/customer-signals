@@ -2,17 +2,39 @@
   "project": {
     "name": "Ledgerly",
     "description": "Invented example. Ledgerly is a made-up invoicing app for design studios and freelance designers. The team wants to learn what to build next and how to talk about it.",
-    "our_domains": ["ledgerly.example"],
-    "our_names": ["Mira Tan"]
+    "our_domains": [
+      "ledgerly.example"
+    ],
+    "our_names": [
+      "Mira Tan"
+    ]
   },
   "pools": [
-    {"id": "product", "about": "Bugs, missing features and friction. Serves the backlog."},
-    {"id": "marketing", "about": "Pains, gains and the words customers use. Serves messaging and the website."},
-    {"id": "sales", "about": "Pricing, objections and reasons to switch. Serves pricing and the sales pitch."}
+    {
+      "id": "product",
+      "about": "Bugs, missing features and friction. Serves the backlog."
+    },
+    {
+      "id": "marketing",
+      "about": "What customers want, how they decide, and the words they use. Serves messaging and the website."
+    },
+    {
+      "id": "sales",
+      "about": "Pricing, objections and reasons to switch. Serves pricing and the sales pitch."
+    }
   ],
   "segments": [
-    {"id": "studios", "about": "Design studios and agencies with a team."},
-    {"id": "freelancers", "about": "Designers who work alone."}
+    {
+      "id": "studios",
+      "about": "Design studios and agencies with a team."
+    },
+    {
+      "id": "freelancers",
+      "about": "Designers who work alone."
+    }
   ],
-  "mirror": {"store": "none", "min_customers": 2}
+  "mirror": {
+    "store": "none",
+    "min_customers": 2
+  }
 }

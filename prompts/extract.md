@@ -70,9 +70,11 @@ To skip words in the middle, use `…`. Each piece around it must still be exact
 
 **Speaker fidelity.** The name after the dash is the speaker label on that turn in this call file. If the call has no speaker labels, write `— unattributed, on <topic>`. Never take a name from anywhere else.
 
+**Typed notes are not speech.** When the call file is someone's notes about a call (third person: "they said…", "she asked…"), the notes are the writer's words, not the customer's. Quote only text the notes themselves put inside quotation marks. When the notes hold no such text, the Quote bank is `_(none observed)_` and Their words holds no quoted phrases.
+
 The engine checks every quote against the call, and every name against the speaker who said it. A quote that fails is dropped from the signals. Before you finish, run `bin/cs check --call <call_id>` and fix every error by choosing the exact span from the call.
 
-Outside the Quote bank and Their words, write in your own words, without quotation marks. Refer to people by their speaker label. Write the note in the language of `data/config.json`, whatever language the call is in. Quotes stay in the language spoken: never translate inside quotation marks.
+Outside the Quote bank and Their words, write in your own words, without quotation marks. Refer to people by their speaker label. Write the note in the language the person works in (the language of `project.description` in `data/config.json`), whatever language the call is in. Quotes stay in the language spoken: never translate inside quotation marks.
 
 ## Quality
 

@@ -1,8 +1,10 @@
-Mira Tan: Tomas, you work with clients in Sweden and Germany. How do invoices go?
-Tomas Lind: Every invoice to Germany makes me nervous. Reverse charge, VAT number, the right sentence on the invoice. I look it up every time.
-Mira Tan: Does Ledgerly help there?
-Tomas Lind: It has a field for the VAT number, but it does not tell me what to write. I copy the sentence from an old invoice.
+Mira Tan: Tomas, you work with clients in Sweden and Germany. What made you try Ledgerly now?
+Tomas Lind: I looked at you last year and stayed with my old tool. Five years of invoices were in it, and I did not want to lose them.
+Mira Tan: What changed?
+Tomas Lind: My accountant in Stockholm. She asked me to pick a tool that exports to Fortnox, so she stops typing my invoices in.
+Mira Tan: How do the German invoices go?
+Tomas Lind: They make me nervous. Reverse charge, VAT number, the right sentence on the invoice. I copy the sentence from an old invoice every time.
 Mira Tan: What would good look like?
-Tomas Lind: I pick the client's country and the app puts the right VAT text on the invoice. That is it.
-Mira Tan: And getting paid?
-Tomas Lind: Fine, mostly. Swedish clients pay on time. The Germans pay on the last day, but they pay.
+Tomas Lind: I pick the client's country, and the app puts the right VAT text on the invoice.
+Mira Tan: Anything else in your week?
+Tomas Lind: I track hours in Toggl and copy them into each invoice by hand.

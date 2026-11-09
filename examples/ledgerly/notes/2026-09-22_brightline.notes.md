@@ -6,69 +6,60 @@ extracted_at: 2026-11-09
 extracted_by: claude-sonnet
 quality: partial
 ---
-
 # 2026-09-22_brightline
 
 ## Customer context
-- Brightline is an agency and a customer for one year.
-- Jonas Weber speaks for it. His exact role is not stated.
-- The team grew from 4 to 11 people this year. Three of the 11 send invoices. The other eight only look at the numbers.
-- They invoice in euros, pounds and dollars.
-- Project managers chase their own clients for payment. An accountant fixes foreign invoices.
+Brightline is a design studio and a Ledgerly customer for one year. Jonas Weber speaks for it and handles money and invoicing. The studio has eleven salaries. Its accountant works in Xero. The studio logs hours in Harvest.
 
 ## Pains
 **Said**
-- Pricing: the bill almost tripled while the team grew from 4 to 11. Jonas Weber thinks paying a full seat for someone who only reads a dashboard is wrong.
-- Exchange rates: the rate on the invoice and the rate the bank uses never match.
-- Overdue payments: nobody sees who is overdue across the agency.
+- Every month somebody retypes Harvest hours into the invoices, and it takes a full afternoon.
+- A single late phase sign-off forces Jonas to move money around for a week, because he cannot see incoming cash before the bank shows it.
 
 **Shown**
-- The accountant corrects every foreign invoice by hand, half a day at the end of each month.
-- Project managers each chase late payers in their own way.
+- Jonas answers the "what would you add first" question with cash visibility, not an invoicing feature. Cash timing worries him more than invoice creation.
 
 ## Gains
-- A price that follows the people who invoice, not the people who read.
-- Foreign invoices that match the bank rate without manual fixes.
-- One view of overdue payments across the whole agency.
+- See next month's incoming money, by client, ahead of the bank.
+- Hours flow from Harvest into invoices without retyping.
 
 ## Their words
-- "a full seat for someone who reads a dashboard"
-- "never match"
-- "nobody sees who is overdue across the agency"
+- "retypes them into the invoices"
+- "a full afternoon"
+- "before the bank tells me"
+- "move money around for a week"
 
 ## Workflow
-- Three people send invoices, in euros, pounds and dollars.
-- At month end the accountant fixes each foreign-currency invoice by hand: half a day per month.
-- Project managers chase their own clients for late payments, each in their own way. There is no shared overdue view.
+Brightline bills by phase. An invoice goes out when the client signs off a phase, not on a fixed date. Hours come from Harvest. Each month one person retypes them into the invoices by hand. The accountant works in Xero.
 
 ## Tools and alternatives
-_(none observed)_
+- Harvest: source of hours.
+- Xero: the accountant's system. Sync with Xero is a hard requirement.
+- No competitor is named in this call.
 
 ## Decision
-_(none observed)_
+Jonas appears to decide for the studio. The accountant influences the choice through Xero. Xero sync was the deciding criterion for the switch to Ledgerly: without it the answer is a no. Budget and timing are not discussed.
 
 ## Requests
-- A cheaper seat for people who only view numbers. Reason: 8 of 11 people do not send invoices, and the bill almost tripled.
-- Invoice exchange rate that matches the bank rate. Reason: the accountant fixes every foreign invoice by hand, half a day a month.
-- An agency-wide view of overdue invoices. Reason: project managers chase clients separately and nobody sees the total.
+- A cash forecast view for next month: what comes in, by client, ahead of the bank. Reason: eleven salaries and phase-based billing make timing risky.
+- Harvest hours imported into invoices (implied by the monthly retyping pain, not asked for outright).
 
 ## Quote bank
-> The rest only need to see the numbers. Paying a full seat for someone who reads a dashboard feels wrong.
-— Jonas Weber, on pricing for view-only people
+> Anything we pick has to sync with Xero, or it is a no.
+— Jonas Weber, on the switch decision
 
-> The exchange rate on the invoice and the rate our bank uses never match, so the accountant fixes every foreign invoice by hand.
-— Jonas Weber, on multi-currency invoices
+> Every month somebody retypes them into the invoices. It takes a full afternoon.
+— Jonas Weber, on Harvest hours
 
-> nobody sees who is overdue across the agency
-— Jonas Weber, on late payments
+> We have eleven salaries. One late phase sign-off and I move money around for a week.
+— Jonas Weber, on why cash visibility matters
 
-> We grew from four to eleven people this year and our bill almost tripled.
-— Jonas Weber, on pricing
+> A view of next month. I want to see what comes in, by client, before the bank tells me.
+— Jonas Weber, on the first feature he would add
 
-> Half a day at the end of each month.
-— Jonas Weber, on time lost to manual rate fixes
+> By phase. The invoice goes out when the client signs off a phase, not on a date.
+— Jonas Weber, on how Brightline bills
 
 ## Open questions
-- What is Jonas Weber's role, and who signs off on the Ledgerly bill?
-- Would a view-only seat at a lower price solve the pricing complaint? Test with other studios.
-- Which tools do they use now for chasing payments?
+- Does Jonas want a Harvest integration, or only less retyping? He never asked for it by name.
+- Does "view of next month" need only phase sign-off dates, or also expected payment dates?
