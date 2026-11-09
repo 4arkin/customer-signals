@@ -1,0 +1,23 @@
+Mira Tan  0:02
+Leo, you signed up three weeks ago. How was the first week?
+
+Leo Marchetti  0:07
+Honestly, slow. I had all my clients in a Google Sheet and the import wanted a different column order. I gave up and added the ten I bill most.
+
+Mira Tan  0:21
+And the rest?
+
+Leo Marchetti  0:24
+They are still in the sheet. So now I have two places to look, which is worse than before.
+
+Mira Tan  0:31
+What would have made the import work?
+
+Leo Marchetti  0:35
+Let me match the columns myself. Show me my sheet and ask which column is the email.
+
+Mira Tan  0:44
+Anything about getting paid?
+
+Leo Marchetti  0:47
+I track who owes me in the same sheet, with a red cell. If the app knew who was late and nudged them, I would close the sheet for good.

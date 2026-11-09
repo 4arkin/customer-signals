@@ -1,0 +1,31 @@
+1
+00:00:01,000 --> 00:00:04,000
+Mira Tan: What made you look at Ledgerly in the first place?
+
+2
+00:00:04,000 --> 00:00:15,000
+Ravi Shah: Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.
+
+3
+00:00:15,000 --> 00:00:19,000
+Mira Tan: And how did the move go?
+
+4
+00:00:19,000 --> 00:00:33,000
+Ravi Shah: The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.
+
+5
+00:00:33,000 --> 00:00:38,000
+Mira Tan: What did you do with the rejected ones?
+
+6
+00:00:38,000 --> 00:00:47,000
+Ravi Shah: Typed them in by hand. It took our office manager three days.
+
+7
+00:00:47,000 --> 00:00:52,000
+Mira Tan: Is anything still slowing you down?
+
+8
+00:00:52,000 --> 00:01:08,000
+Ravi Shah: Late payers. I have a sticky note on my screen with the names of clients to chase. That should not be my system.

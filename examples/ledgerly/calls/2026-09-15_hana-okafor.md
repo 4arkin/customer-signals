@@ -1,0 +1,31 @@
+---
+call_id: 2026-09-15_hana-okafor
+date: 2026-09-15
+title: 2026-09-15_hana-okafor
+customer: Hana Okafor
+segment: freelancers
+participants: ["hana.okafor@gmail.com"]
+speakers: ["Hana Okafor", "Mira Tan"]
+labelled: true
+source: 2026-09-15_hana-okafor.txt
+sha: 5326a7481ea151ae
+---
+Mira Tan: You work alone, right? How do you handle invoices today?
+
+Hana Okafor: Alone, yes. Mostly book covers. I send maybe six invoices a month.
+
+Mira Tan: What is the hardest part?
+
+Hana Okafor: Asking for the money. I hate it. When a publisher is late I wait two more weeks before I dare to write, because I do not want to look desperate.
+
+Mira Tan: So the reminder would help?
+
+Hana Okafor: Only if it does not sound like a robot. If it sounds like a collection agency, the art director will think I am difficult.
+
+Mira Tan: What about pricing, does the plan fit?
+
+Hana Okafor: The solo plan is fine. I would pay more if it chased people for me, honestly.
+
+Mira Tan: Anything you miss in the app?
+
+Hana Okafor: Half my clients are in the UK. I never know if I should add VAT or not, and the app does not tell me.

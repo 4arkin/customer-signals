@@ -1,0 +1,9 @@
+Call with Quiet Fox Design, typed up after the call. No recording.
+
+They are a three-person studio. They send around fifteen invoices a month, mostly to tech startups.
+
+Their biggest problem is late payment. "Startups pay when their funding lands, not when the invoice is due." They chase by phone because email reminders get ignored.
+
+They asked if Ledgerly can add a late fee automatically after thirty days. Today they add it by hand and then feel bad and remove it.
+
+They like the invoice design. A client told them the invoice looked more professional than their website.

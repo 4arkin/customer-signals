@@ -1,0 +1,20 @@
+{
+  "project": {
+    "name": "Example Co",
+    "description": "One or two sentences: what the project sells, to whom, and what it wants to learn from its calls.",
+    "our_domains": ["example.com"],
+    "our_names": ["Sam Lee"]
+  },
+  "pools": [
+    {"id": "product", "about": "Bugs, missing features, friction in the product, requests. Serves the backlog."},
+    {"id": "marketing", "about": "Pains, gains and the words customers use. Serves messaging, positioning and offers."},
+    {"id": "sales", "about": "Objections, buying process, budget, competitors in the deal. Serves the sales script."},
+    {"id": "customer-success", "about": "Onboarding friction, churn risk, workarounds. Serves retention."}
+  ],
+  "segments": [],
+  "mirror": {
+    "store": "none",
+    "min_customers": 2,
+    "notes": "How the agent writes to the store: the connector, the database or sheet name, the column map."
+  }
+}

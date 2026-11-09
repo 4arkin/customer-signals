@@ -1,0 +1,5 @@
+# Your calls and signals never leave your machine
+data/
+*.tmp
+__pycache__/
+.DS_Store

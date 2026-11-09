@@ -1,0 +1,145 @@
+{
+ "store": "none",
+ "min_customers": 2,
+ "generated": "2026-11-09",
+ "upsert_key": "Signal ID",
+ "rows": [
+  {
+   "Signal ID": "chasing-late-payments-by-hand",
+   "Title": "Chasing late payments is manual and awkward",
+   "Rank": 1,
+   "Customers": 6,
+   "Calls": 6,
+   "Pools": [
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-02",
+   "Last seen": "2026-10-08",
+   "Description": "Getting paid takes more effort than sending the invoice. Customers chase by email, phone, sticky notes or red cells, and the chasing feels awkward with clients they want to keep.",
+   "Quotes": [
+    "\"Sending them is fine now. Getting paid is the problem. I spend every Friday morning chasing late invoices by email.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"I have a sticky note on my screen with the names of clients to chase. That should not be my system.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"When a publisher is late I wait two more weeks before I dare to write, because I do not want to look desperate.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`"
+   ]
+  },
+  {
+   "Signal ID": "paying-full-seats-for-viewers",
+   "Title": "Paying full seats for people who only view",
+   "Rank": 2,
+   "Customers": 3,
+   "Calls": 3,
+   "Pools": [
+    "sales",
+    "product"
+   ],
+   "Segments": [
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-09",
+   "Last seen": "2026-10-20",
+   "Description": "Teams grow, but only a few people send invoices. Paying a full seat for someone who only looks at numbers feels wrong and pushes customers to look elsewhere.",
+   "Quotes": [
+    "\"Our old tool charged per seat. We are six people, and only two of us ever send an invoice, but we paid for six.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"The rest only need to see the numbers. Paying a full seat for someone who reads a dashboard feels wrong.\" — Jonas Weber · Brightline · 2026-09-22 · call `2026-09-22_brightline`",
+    "\"We hired two juniors who only need to see the invoice status. I do not want to pay full seats for them.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
+   ]
+  },
+  {
+   "Signal ID": "reminders-must-sound-like-the-sender",
+   "Title": "Payment reminders must sound like the sender, not a robot",
+   "Rank": 3,
+   "Customers": 2,
+   "Calls": 3,
+   "Pools": [
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-02",
+   "Last seen": "2026-10-20",
+   "Description": "One cold template for every client damages relationships, so customers switch reminders off. Reminders written per client, in their own voice, get used.",
+   "Quotes": [
+    "\"I turned it off. It sends the same cold text to everyone. A client of five years got the same message as a one-off job.\" — Dana Holt · Northwind Studio · 2026-09-02 · call `2026-09-02_northwind-studio`",
+    "\"If it sounds like a collection agency, the art director will think I am difficult.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"I can now write one template for regulars and one for slow payers.\" — Dana Holt · Northwind Studio · 2026-10-20 · call `2026-10-20_northwind-studio`"
+   ]
+  },
+  {
+   "Signal ID": "no-vat-guidance-for-cross-border-invoices",
+   "Title": "No guidance on what VAT to put on cross-border invoices",
+   "Rank": 4,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "product",
+    "marketing"
+   ],
+   "Segments": [
+    "freelancers"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-15",
+   "Last seen": "2026-10-27",
+   "Description": "Freelancers with clients in other countries do not know whether to add VAT or what sentence the invoice needs, and look it up every time.",
+   "Quotes": [
+    "\"Half my clients are in the UK. I never know if I should add VAT or not, and the app does not tell me.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"It has a field for the VAT number, but it does not tell me what to write.\" — Tomas Lind · Tomas Lind · 2026-10-27 · call `2026-10-27_tomas-lind`"
+   ]
+  },
+  {
+   "Signal ID": "client-import-rejects-spreadsheets",
+   "Title": "Client import fails on real spreadsheets",
+   "Rank": 5,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "product"
+   ],
+   "Segments": [
+    "freelancers",
+    "studios"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-09",
+   "Last seen": "2026-10-01",
+   "Description": "The importer expects one address format and one column order. Customers give up, type clients in by hand, or keep two systems.",
+   "Quotes": [
+    "\"The import was painful. We had four hundred clients in a spreadsheet and the importer rejected half of them because of the address format.\" — Ravi Shah · Pixel & Pine · 2026-09-09 · call `2026-09-09_pixel-pine`",
+    "\"Let me match the columns myself. Show me my sheet and ask which column is the email.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`"
+   ]
+  },
+  {
+   "Signal ID": "would-pay-for-automatic-chasing",
+   "Title": "Would pay more, or drop the old system, for chasing done for them",
+   "Rank": 6,
+   "Customers": 2,
+   "Calls": 2,
+   "Pools": [
+    "sales",
+    "marketing"
+   ],
+   "Segments": [
+    "freelancers"
+   ],
+   "Status": "open",
+   "First seen": "2026-09-15",
+   "Last seen": "2026-10-01",
+   "Description": "Automatic chasing is the feature customers attach money or a full switch to.",
+   "Quotes": [
+    "\"I would pay more if it chased people for me, honestly.\" — Hana Okafor · Hana Okafor · 2026-09-15 · call `2026-09-15_hana-okafor`",
+    "\"If the app knew who was late and nudged them, I would close the sheet for good.\" — Leo Marchetti · Leo Marchetti · 2026-10-01 · call `2026-10-01_leo-marchetti`"
+   ]
+  }
+ ]
+}
