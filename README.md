@@ -1,7 +1,7 @@
 <h1 align="center">customer-signals</h1>
 
 <p align="center">
-  <strong>Rank what your customers say by how many of them say it. Check every quote word for word against its call.</strong>
+  <strong>Turn your customer calls into a memory that your AI agent can ask.</strong>
 </p>
 
 <p align="center">
@@ -12,14 +12,12 @@
 </p>
 
 <p align="center">
-  <img src="assets/hero.png" width="880" alt="The example run on invented calls for Ledgerly, a made-up invoicing app. You ask: which signals have the most customers? The ranked list, with customers and calls for each signal: 1, Invoices when a project phase is approved, not by calendar month, 4 customers, 4 calls, with a checked quote. 2, Wants to see next month's incoming cash ahead of time, 3 customers, 4 calls: one customer on two calls counts once. 3, Years of invoice history hold them in the old tool, 3 customers, 3 calls. 4, Must sync or export to the accountant's accounting system, 3 customers, 3 calls. 5, Chases late payers by hand, 3 customers, 3 calls. 6, Retypes tracked hours into invoices, 2 customers, 2 calls. 7, Unsure which VAT text to put on invoices to foreign clients, 2 customers, 2 calls.">
+  <img src="assets/hero.png" width="880" alt="The example run on invented calls for Ledgerly, a made-up invoicing app. Three questions to the agent, each answered from all the calls. Sales asks: what stops prospects from switching to us? Answer: their old invoices and their accountant. Years of invoice history in the old tool, 3 customers. Must sync to Xero or Fortnox, 3 customers. Quote from Ravi Shah, Pixel and Pine: Seven years of invoices sit in the old tool. Marketing asks: how do customers describe their billing? Answer: by phase, not by month, 4 customers. Quote from Jonas Weber, Brightline: The invoice goes out when the client signs off a phase, not on a date. Product asks: what do customers still do by hand? Answer: chase late payers, 3 customers. Retype tracked hours into invoices, 2 customers. Build each milestone invoice, 2 customers. Quote from Tomas Lind: I track hours in Toggl and copy them into each invoice by hand. Every answer shows who said it, and in which call.">
 </p>
 
-An AI debrief of one call forgets the call when you close the chat. It counts nothing across calls.
+Ask your agent *"what stops prospects from switching to us?"* or *"what do customers still do by hand?"*. It answers from all your calls, with a quote and the call for each point.
 
-customer-signals gives your AI agent a memory of all your customer calls. It notes problems, goals, ways of working, tools, buying criteria, objections, requests and quotes. Each signal gets a rank by the number of distinct customers who raised it, with the number of calls beside it.
-
-Ask your agent *"what comes up most in the sales pool?"* and you get a ranked list with counts and quotes.
+customer-signals keeps every call in local files. Your agent writes down what each customer says: problems, goals, ways of working, tools, alternatives, objections, requests and the words they use. It sorts these signals into pools for marketing, sales, product and customer service. A signal that more customers raise comes first.
 
 > **AI agents:** read [`AGENTS.md`](AGENTS.md). It is the complete protocol.
 
