@@ -2,11 +2,13 @@
 
 You read ONE call file from `data/calls/` and write ONE note to `data/notes/<call_id>.notes.md`.
 
+Read the whole call before you write. A long call does not fit in one read: page through the file until its last line.
+
 Work on one call only. If you run as a subagent, your context holds this call and no other. Never read a second call while you write this note. The isolation is the point: a quote cannot come from another meeting if you never saw the other meeting.
 
 ## Who is who
 
-The call has two sides: our side (the project team) and the customer's side. `data/config.json` names our side in `project.our_names` and `project.our_domains`. Everyone else is the customer.
+The call has two sides: our side (the project team) and the customer's side. `data/config.json` names our side in `project.our_names` and `project.our_domains`. Everyone else is the customer: whoever the project learns from, as `project.description` says (a prospect, a client, a user, a partner who sells for us). Their pains count even when they are about buying, selling or terms rather than the product.
 
 Mine the customer's side. What our side says is noise, unless the customer reacts to it. Then capture the reaction.
 
@@ -70,7 +72,7 @@ To skip words in the middle, use `…`. Each piece around it must still be exact
 
 The engine checks every quote against the call, and every name against the speaker who said it. A quote that fails is dropped from the signals. Before you finish, run `bin/cs check --call <call_id>` and fix every error by choosing the exact span from the call.
 
-Outside the Quote bank and Their words, write in your own words, without quotation marks. Refer to people by their speaker label.
+Outside the Quote bank and Their words, write in your own words, without quotation marks. Refer to people by their speaker label. Write the note in the language of `data/config.json`, whatever language the call is in. Quotes stay in the language spoken: never translate inside quotation marks.
 
 ## Quality
 
@@ -81,4 +83,4 @@ A section has real content when it holds at least one concrete item about this c
 
 Be honest. A thin note marked `clean` misleads every count downstream.
 
-If the call is garbled, in a language you cannot read, or not a customer call at all, do not write a note. Report it, and the person can run `bin/cs skip <call_id> --reason "<why>"`.
+If the call is garbled, in a language you cannot read, or not a customer call at all (a personal chat, an internal team meeting, a talk), do not write a note. Run `bin/cs skip <call_id> --reason "<why>"` so the call leaves the queue, and report it. A call you skip by mistake comes back when the person deletes the `skip:` line in its call file.
