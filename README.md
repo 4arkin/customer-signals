@@ -25,10 +25,7 @@ customer-signals keeps every call in local files. Your agent writes down what ea
 
 ## See it run
 
-<!-- Alex: on github.com, edit README.md and drag assets/demo.mp4 into this section. GitHub then gives a user-attachments link that plays here. Replace the poster block below with that link. -->
-<p align="center">
-  <a href="assets/demo.mp4"><img src="assets/demo-poster.jpg" width="880" alt="A 20-second video of the example run: calls go in, one note per call, every quote checked, signals ranked by customers."></a>
-</p>
+https://github.com/user-attachments/assets/26bc6bab-5cc2-4a33-84f2-c41b2a085f31
 
 ## Before and after
 
